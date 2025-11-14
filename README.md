@@ -7,18 +7,18 @@ A microservices-based platform for real-time NBA game data, built with TypeScrip
 This platform consists of three independent microservices that work together to provide real-time NBA game data:
 
 ```
-┌─────────────────────┐
+┌───────────────────────┐
 │  nba-realtime-service │
-│  (TypeScript + Python) │
-│  Port: 8000          │
-└──────────┬───────────┘
+│  (TypeScript + Python)│
+│  Port: 8000           │
+└──────────┬────────────┘
            │
            │ Publishes updates
            ▼
-    ┌──────────────┐
+    ┌───────────────┐
     │ Kafka/Redpanda│
-    │  Port: 9092  │
-    └──────┬───────┘
+    │  Port: 9092   │
+    └──────┬────────┘
            │
            │ Consumes messages
            ▼
@@ -30,11 +30,11 @@ This platform consists of three independent microservices that work together to 
            │
            │ REST API + WebSocket
            ▼
-┌─────────────────────┐
+┌──────────────────────┐
 │  nba-client-app      │
 │  (Next.js/React)     │
 │  Port: 3001          │
-└─────────────────────┘
+└──────────────────────┘
 ```
 
 ### Data Flow
