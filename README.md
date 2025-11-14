@@ -462,20 +462,20 @@ See individual repository READMEs for license information.
 
 ## ⚠️ Important Legal Notice
 
-**This software uses NBA.com data via the `nba_api` Python library.**
+**This software uses NBA.com data via the `https://github.com/swar/nba_api` Python library.**
+
 
 **Commercial Use**: NBA.com's Terms of Use prohibit commercial use of their data without written permission. If you plan to use this software commercially, you must:
 1. Obtain written permission from the NBA, OR
 2. Use a licensed data provider (e.g., Sportradar, Stats Perform)
 
-See [`thoughts/shared/research/2025-11-14-nba-api-commercial-use-legal-risks.md`](thoughts/shared/research/2025-11-14-nba-api-commercial-use-legal-risks.md) for more details.
 
 ## 🤝 Contributing
 
 Each service is in its own repository. Please contribute to the individual repositories:
-- [nba-realtime-service](../nba-realtime-service)
-- [nba-api-service](../nba-api-service)
-- [nba-client-app](../nba-client-app)
+- [nba-realtime-service](https://github.com/natiassefa/nba-realtime-service)
+- [nba-api-service](https://github.com/natiassefa/nba-api-service)
+- [nba-client-app](https://github.com/natiassefa/nba-client-app)
 
 ## 📞 Support
 
