@@ -141,14 +141,16 @@ This starts:
 
 ```bash
 cd nba-realtime-service
-docker compose exec nba-realtime-service npm run migrate
+docker compose exec nba-realtime-service pnpm run migrate
+
 ```
 
 Or if running locally:
 
 ```bash
 cd nba-realtime-service
-npm run migrate
+pnpm run migrate
+
 ```
 
 #### Step 3: Start nba-realtime-service
@@ -158,8 +160,9 @@ cd nba-realtime-service
 docker compose up -d nba-realtime-service
 
 # Or run locally:
-npm install
-npm run dev
+pnpm install
+pnpm run dev
+
 ```
 
 #### Step 4: Start nba-api-service
@@ -168,10 +171,12 @@ In a new terminal:
 
 ```bash
 cd nba-api-service
-npm install
+pnpm install
+
 
 # Create .env file (see Environment Variables below)
-npm run dev
+pnpm run dev
+
 ```
 
 #### Step 5: Start nba-client-app
@@ -180,8 +185,9 @@ In a new terminal:
 
 ```bash
 cd nba-client-app
-npm install
-npm run dev
+pnpm install
+pnpm run dev
+
 ```
 
 #### Step 6: Access the Application
@@ -233,8 +239,9 @@ DB_PASSWORD=nba
 DB_NAME=nba
 
 # Polling
-POLL_BASE_INTERVAL_MS=20000
-SCHEDULE_DATE=  # Optional: YYYY-MM-DD, empty = today
+POLLING_BASE_INTERVAL_MS=20000
+POLLING_SCHEDULE_DATE= # Optional: YYYY-MM-DD, empty = today
+
 ```
 
 ### nba-api-service
