@@ -50,7 +50,7 @@ This platform consists of three independent microservices that work together to 
 
 This monorepo contains three main services, each designed to be deployed independently:
 
-### 1. [nba-realtime-service](../nba-realtime-service)
+### 1. [nba-realtime-service](https://github.com/natiassefa/nba-realtime-service)
 
 **Purpose**: Polls NBA.com APIs and publishes game updates to Kafka
 
@@ -68,9 +68,9 @@ This monorepo contains three main services, each designed to be deployed indepen
 - Dual persistence (Redis + PostgreSQL)
 - Graceful shutdown and health checks
 
-**Repository**: [`nba-realtime-service`](../nba-realtime-service)
+**Repository**: [`nba-realtime-service`](https://github.com/natiassefa/nba-realtime-service)
 
-### 2. [nba-api-service](../nba-api-service)
+### 2. [nba-api-service](https://github.com/natiassefa/nba-api-service)
 
 **Purpose**: REST API and WebSocket service for game data
 
@@ -90,7 +90,7 @@ This monorepo contains three main services, each designed to be deployed indepen
 
 **Repository**: [`nba-api-service`](../nba-api-service)
 
-### 3. [nba-client-app](../nba-client-app)
+### 3. [nba-client-app](https://github.com/natiassefa/nba-client-app)
 
 **Purpose**: Frontend web application for viewing NBA games
 
@@ -108,7 +108,7 @@ This monorepo contains three main services, each designed to be deployed indepen
 - Play-by-play event display
 - Responsive design
 
-**Repository**: [`nba-client-app`](../nba-client-app)
+**Repository**: [`nba-client-app`](https://github.com/natiassefa/nba-client-app)
 
 ## 🚀 Quick Start
 
